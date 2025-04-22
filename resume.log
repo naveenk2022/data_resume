@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.21)  21 APR 2025 17:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.21)  21 APR 2025 23:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -623,7 +623,7 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [letter].
 
-No file resume.aux.
+(resume.aux)
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
@@ -643,6 +643,7 @@ LaTeX Font Info:    ... okay on input line 43.
 LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 43.
 LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 4
 3.
+
 (C:\Users\navee\AppData\Local\Programs\MiKTeX\tex/latex/ly1\ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
@@ -713,6 +714,7 @@ fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 43.
+ (resume.out) (resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
@@ -765,28 +767,28 @@ LaTeX Font Info:    Font shape `TS1/SourceSansPro-TLF/regular/n' will be
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 18.
+(hyperref)                removing `\hfill' on input line 19.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 31.
+(hyperref)                removing `\hfill' on input line 32.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 40.
+(hyperref)                removing `\hfill' on input line 41.
 
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 44.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 45.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 24.88pt on input line 44.
+(Font)              scaled to size 24.88pt on input line 45.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/sb/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/semibold/n' on input line 44.
+(Font)              `T1/SourceSansPro-TLF/semibold/n' on input line 45.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/semibold/n' will be
-(Font)              scaled to size 24.88pt on input line 44.
+(Font)              scaled to size 24.88pt on input line 45.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 44.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 45.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 44.
+(Font)              scaled to size 14.4pt on input line 45.
 [1{C:/Users/navee/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/na
 vee/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/sourcesanspro/a_emkxm5.enc}
 
@@ -795,11 +797,11 @@ jropk.enc}{C:/Users/navee/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/sources
 anspro/a_5ponh6.enc}]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 49.
+(hyperref)                removing `\hfill' on input line 50.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 58.
+(hyperref)                removing `\hfill' on input line 59.
 
 ) (sections/education.tex) (sections/activities.tex
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
@@ -822,33 +824,26 @@ l.62 \end{document}
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-Package rerunfilecheck Warning: File `resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  418809C0CA8A0D311F384F8358F40A08;2238.
+Package rerunfilecheck Info: File `resume.out' has not changed.
+(rerunfilecheck)             Checksum: 418809C0CA8A0D311F384F8358F40A08;2238.
  ) 
 Here is how much of TeX's memory you used:
- 14690 strings out of 474486
- 246836 string characters out of 5743755
- 1958542 words of memory out of 5000000
- 36693 multiletter control sequences out of 15000+600000
+ 14709 strings out of 474486
+ 247195 string characters out of 5743755
+ 1959542 words of memory out of 5000000
+ 36706 multiletter control sequences out of 15000+600000
  649238 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 140i,11n,135p,840b,633s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 140i,11n,135p,840b,635s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\navee\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
 1095.pk><C:/Users/navee/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/sources
 anspro/SourceSansPro-It.pfb><C:/Users/navee/AppData/Local/Programs/MiKTeX/fonts
 /type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb><C:/Users/navee/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/adobe/sourcesanspro/SourceSansPro-Semibold.pfb>
 
-Output written on resume.pdf (2 pages, 201909 bytes).
+Output written on resume.pdf (2 pages, 206129 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
+ 136 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
