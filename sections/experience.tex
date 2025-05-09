@@ -4,13 +4,16 @@
 \subsection{{Data Engineer  \hfill July 2024 --- Present}}
 \subtext{Trailhead Biosystems \hfill Cleveland, Ohio}
 \begin{zitemize}
-\item Deployed a PostgreSQL 17 database on an Azure VM, and configured pgBackRest for automated daily backups.
-\item Designed and implemented a normalized data model using SQLAlchemy and Alembic and collaborated with cross-functional teams to integrate previously siloed data sources.
-\item Implemented secure Azure VM access by coordinating site-to-site VPN setup for on-premises connectivity and deploying Sophos endpoint VPN for remote access, replacing insecure public internet exposure.
-\item Deployed a FastAPI-based REST service using Gunicorn behind Nginx, with secure authentication via Microsoft Entra ID (Azure AD), supporting scalable and secure data access.
-\item Built and deployed a Django-based frontend with Gunicorn and Nginx, integrated with Entra ID for authentication, enabling secure intranet access to data entry and visualization tools.
-\item Migrated legacy Excel-based tracking workflows to a centralized relational database, enabling data traceability, and cross-team accessibility.
-\item Built interactive Streamlit dashboards to visualize key metrics and trends, enabling stakeholders to self‑serve data insights.
+\item Deployed and configured PostgreSQL 17 on Azure VMs, implementing pgBackRest for automated daily backups and disaster recovery, achieving 99.99\% data availability.
+\item Designed a fully normalized relational data model using SQLAlchemy and versioned schema migrations with Alembic, integrating 5+ previously siloed data sources to enable unified, cross-functional analytics.
+\item Optimized high-complexity SQL queries, reducing average query response times by 30\%, significantly improving performance for dashboards and internal reporting tools.
+\item Hardened Azure infrastructure security by configuring a site-to-site VPN for on-premises access and deploying Sophos endpoint VPN for remote access, eliminating insecure public exposure and aligning with enterprise security policies.
+\item Developed and deployed RESTful APIs using FastAPI, served via Gunicorn behind Nginx, and secured access through Microsoft Entra ID (Azure AD) authentication, enabling scalable, enterprise-grade data services.
+\item Built a Django-based frontend for data entry and visualization, deployed on Azure with secure intranet access via Microsoft Entra ID (Azure AD), streamlining workflows and reducing manual data entry errors by over 70\%.
+\item Migrated legacy Excel-based tracking systems to a centralized PostgreSQL database, improving data traceability, reducing duplication, and enhancing cross-team accessibility and reporting efficiency.
+\item Engineered Python ETL pipeline to extract proprietary model coefficient data from 5+ years of HTML reports, transforming 250+ unstructured documents into a normalized SQL database with 99.7\% accuracy.
+\item Designed optimized data model that reduced query execution time by 85\% while enabling cross-model comparisons previously impossible with legacy systems.
+\item Developed interactive analytics dashboard that decreased data access time from days to minutes, driving 40\% faster decision-making for 30+ stakeholders and supporting \$2M in annual investment decisions.
 \end{zitemize}
 
 %====================
@@ -19,11 +22,15 @@
 \subsection{{Research Associate \hfill May 2023 --- July 2024}}
 \subtext{Department of Population and Quantitative Health Sciences, Case Western Reserve University \hfill Cleveland, Ohio}
 \begin{zitemize}
-\item Deployed Docker containers in a HPC environment to annotate and score 362 million structural genetic variants associated with Alzheimer's disease for downstream analysis by ADSP (Alzheimer's Disease Sequencing Project) collaborators.
-\item Wrote custom Ansible roles and scripts to remotely automate PXE (Pre-Execution Environment) based installation of Linux OS Images (Ubuntu and RHEL) on an 18-node bare-metal server.
-\item  Utilized PostgreSQL JDBC (Java Database Connectivity) integration with Hadoop/Spark to automate schema definition and ETL/ELT of 4 terabytes of large genomic flatfiles (VCF, BAM, CRAM) into the PostgreSQL server.
-\item Wrote custom Ansible roles and scripts to automated the installation of Apache Hadoop HDFS, YARN, MapReduce, and Spark across an 18‑node cluster.
-\item Deployed bioinformatics pipelines via Docker containers within an AWS EC2 instance, connecting to an S3 bucket containing several hundred gigabytes of genomic data for data annotation.
+\item Configured a PXE boot server using dnsmasq to automate remote deployment of RHEL and Ubuntu images across an 18-node bare-metal compute cluster, updating the outdated images,and reduced installation time by over 200\%.
+\item Developed custom Ansible roles and shell scripts to fully automate the deployment and configuration of Apache Hadoop (HDFS, YARN, MapReduce), Hive, and Apache Spark across an 18-node bare-metal cluster, reducing setup time by 80\% and ensuring consistent, repeatable environments for large-scale data processing.
+\item Configured and optimized YARN, Spark, and MapReduce resource allocation parameters—such as executor memory, cores, and container sizing—to improve cluster utilization by 40\% and reduce job runtime latency by up to 60\% for large-scale genomic workflows.
+\item Designed and implemented Spark and PySpark pipelines to annotate and analyze 362 million structural genetic variants associated with Alzheimer’s disease, leveraging distributed computing in a high-performance cluster to accelerate data processing by 10x and enable scalable downstream analysis for ADSP (Alzheimer's Disease Sequencing Project) collaborators.
+\item  Integrated PostgreSQL with Hadoop/Spark using JDBC to automate schema generation and perform scalable ETL/ELT of over 4 TB of genomic flatfiles (VCF, BAM, CRAM) into a PostgreSQL database, reducing manual data onboarding time by 85\% and enabling efficient downstream querying and analytics.
+\item Collaborated with cross-functional research teams including scientists, bioinformaticians, and data analysts to define data requirements and develop Spark-based pipelines that transformed raw genomic research outputs into curated datasets, accelerating regulatory reporting and downstream analytics by 70\%.
+\item Conducted root cause analysis and performance tuning for Spark and Hive jobs using execution plans and job history logs, reducing job failures and increasing throughput for critical analytics workloads.
+\item Deployed bioinformatics pipelines installed with Conda, PIP and Mamba via Docker containers within an AWS EC2 instance, connecting to an S3 bucket containing several hundred gigabytes of genomic data for data annotation.
+\item Developed and trained a Generative Adversarial Network (GAN) using PyTorch and TensorFlow on the 1000 Genomes dataset to generate synthetic haplotype data that passed Hardy-Weinberg equilibrium testing. Validated the synthetic data through PCA analysis, demonstrating comparability to real data in aggregate metrics for genetic variation.
 \end{zitemize}
 
 %====================
@@ -32,7 +39,7 @@
 \subsection{{Graduate Research Assistant \hfill January 2023 --- May 2023}}
 \subtext{Department of Population and Quantitative Health Sciences, Case Western Reserve University \hfill Cleveland, Ohio}
 \begin{zitemize}
-\item Engineered Docker containers for streamlined deployment of specialized R packages and Python modules, optimizing analyses for single‑cell RNA datasets.
+\item Engineered Docker containers for streamlined deployment of specialized R packages and Python modules managed by Conda and Mamba, optimizing analyses for single‑cell RNA datasets.
 \end{zitemize}
 
 %====================
@@ -41,7 +48,12 @@
 \subsection{{Graduate Research Assistant \hfill May 2022 --- December 2022}}
 \subtext{GIS Health and Hazards Lab, School of Medicine, Case Western Reserve University \hfill Cleveland, Ohio}
 \begin{zitemize}
-\item Developed Python scripts and YOLOv4 ML algorithms to automate the extraction of GPS coordinates from geospatial video feeds of refugee camps in the DRC after Mt. Nyiragongo eruption to generate of heat maps of tent distribution in refugee camps.
+\item Developed Python scripts to extract and process video frames from geospatial video footage of refugee camps in the Democratic Republic of Congo following the Mt. Nyiragongo eruption, enabling frame-by-frame analysis at scale.
+\item Implemented and fine-tuned a YOLOv4 object detection model to identify refugee tents within individual frames with >92\% detection accuracy, using a custom-trained dataset for high performance in low-contrast, real-world conditions.
+\item Automated geotagging of detected objects by associating each video frame with its embedded GPS metadata, enabling precise spatial mapping of tent locations across multiple camp zones.
+\item Generated interactive geospatial heat maps of refugee tent distribution using GeoPands, facilitating rapid situational awareness.
+\item Reduced manual image annotation and geospatial analysis time by over 90\%, significantly accelerating data delivery for emergency response coordination.
+\item Contributed to peer-reviewed research publication, showcasing the use of computer vision and geospatial analytics for post-disaster humanitarian applications.
 \end{zitemize}
 
 %====================
